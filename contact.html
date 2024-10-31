@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-----font awesome cdn-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Contact us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+        
+
+       
+        *{
+           margin: 0;
+           padding: 0;
+           font-family: 'Raleway';
+       }
+
+       .header-section{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    height: 10rem;
+}
+
+.logo{
+    font-size: 40px;
+    margin-right: auto;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 1.7rem;
+    font-family: 'cinzel';
+    display: block;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    background-color: #b48f71c2;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.icons{
+    font-size: 20px;
+    color: white;
+    margin-left: 2px;
+}
+.icons a{
+    color: white;
+
+
+}
+.icons a:hover{
+    color: #b48f71;
+}
+
+
+       .contact-section{
+        background-image:url("images/Gossamer\ Bone\ Textile\ -\ 25\ inches\ _\ 3\ yards.jpg");
+           background-size: cover;
+           padding: 40px 0;
+       }
+       
+       .contact-section h1{
+           text-align: center;
+           color: #ffffff;
+          
+       }
+       .border{
+           width: 100px;
+           height: 2px;
+           background: hsl(29, 59%, 32%);
+           margin: 40px auto;
+       }
+       .contact-form{
+           max-width: 600px;
+           margin: auto;
+           padding: 0 10px;
+           overflow: hidden;
+       }
+       .contact-form-text{
+           display: block;
+           width: 100%;
+           box-sizing: border-box;
+           margin: 16px 0;
+           border: 0;
+           background:rgba(241, 221, 202, 0.897);
+           padding: 20px 40px;
+           outline: none;
+           color: #ddd;
+           transition: 0.5s;
+       }
+       .contact-form-text:focus{
+           box-shadow: 0 0 10px 4px #5e4334;
+       }
+       textarea .contact-form-text{
+           resize: none;
+           height: 120px;
+
+       }
+       .contact-form-btn{
+           float: right;
+           border: 0;
+           background: #966a379c;
+           color: white;
+           padding: 12px 50px;
+           border-radius: 20px;
+           cursor: pointer;
+           transition: 0.5s;
+
+       }
+       .contact-form-btn:hover{
+           background: #fafdff;
+           color: #5e4334;
+       }
+       
+         /*footer*/
+         .container{
+     max-width: 1170px;
+     
+     margin: auto;
+
+ }
+ .footer-row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ ul{
+     list-style: none;
+ }
+
+ .footer{
+     background-color: rgb(66, 65, 65);
+      padding: 70px;
+    }
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #b48f71;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-family: 'cinzel',sans-serif;
+        font-weight: 100;
+        position:  relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #b48f71;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    display: block;
+    transition: all 0.3s ease;
+    font-family: 'Raleway';
+    margin-left: -10px;
+}
+.footer-col ul li a:hover{
+    color: beige;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: beige;
+    transition: all 0.5s ease;
+    
+}
+.footer-col .social-links a:hover{
+    color: #b48f71;
+    background-color: beige;
+}
+/*responsive footer*/
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    
+    }
+}
+       </style>
+</head>
+<body>
+     <!--header-->
+     <header class="header-section">
+        <a href="index.html" class="logo" style="font-family: 'cinzel'; text-decoration: none;color: rgb(255, 255, 255);">ESTHETIQUE</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="service.html">SERVICES </a></li>
+    
+          
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="login.html"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+    </header>
+
+    <!---header ends-->
+    <div class="contact-section">
+
+        <h1 style="font-family: 'cinzel'; font-size: 40px;font-weight: lighter;">Contact us </h1>
+        <div class="border"></div>
+
+        <form class="contact-form" action="contact.html" method="post">
+            <input type="text" class="contact-form-text" style="font-weight: 700; " placeholder="your name">
+            <input type="text" class="contact-form-text"  style="font-weight: 700; "placeholder="your email">
+            <input type="text" class="contact-form-text" style="font-weight: 700; " placeholder="your phone">
+            <textarea class="contact-form-text" style="font-weight: 700; " placeholder="your message"></textarea>
+            <input type="submit" class="contact-form-btn" style="font-weight: 600;" value="send">
+        
+        </form>
+    </div>
+
+
+ <!----footer-->
+ <footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4> ESTHETIQUE</h4>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="service.html">services</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="#">blogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+               <h4>get help</h4>
+               <ul>
+                   <li><a href="#">my account</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">my cart</a></li>
+                   <li><a href="#">terms & use</a></li>
+               </ul>
+           </div>
+           <div class="footer-col">
+               <h4>follow us</h4>
+               <div class="social-links">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-linkedin"></i></a>
+               </div>
+                 
+               
+           </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>

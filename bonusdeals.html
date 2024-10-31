@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONUS DEALS-ESTHETIQUE</title>
+     <!-----font awesome cdn-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway:wght@300&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+          .header-section{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    height: 10rem;
+}
+
+.logo{
+    font-size: 40px;
+    margin-right: auto;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 1.7rem;
+    font-family: 'cinzel';
+    display: block;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    background-color: #b48f71b9;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.icons{
+    font-size: 20px;
+    color: white;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.icons a{
+    color: white;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+
+
+.icons a:hover{
+    color: #b48f71;
+}
+
+section .banner-container,.banner-title{
+    font-family: 'raleway';
+    padding: 20px;
+    
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    letter-spacing: 3px;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    text-align: center;
+}
+.banner-title a {
+    text-decoration: none;
+    font-family: 'raleway';
+}
+
+ h2 .bonus-title{
+    font-family: 'raleway';
+    font-weight:bolder;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    letter-spacing: 3px;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    text-align: center;
+}
+
+.underline{
+width: 100%;
+margin-bottom: 15px;
+display: block;
+border: solid 1px ;
+height: 1px;
+border-right: 0;
+border-left: 0;
+border-bottom: 0;
+border-color: #000000;
+}
+
+.cards{
+   width: 30%; 
+   background-color: rgb(255, 255, 255);
+   position: relative;
+   margin:120px;
+   display: inline-block;
+}
+.card-image img{
+    width: 100%;
+    position: relative;
+}
+img .label  {
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+ 
+
+    font-family: 'opensans';
+    top: 8px;
+    right: 16px;
+    position: absolute;
+    text-align: center;
+  }
+
+
+  .danger {background-color: #f44336;
+    top: 8px;
+    right: 16px;
+    position: absolute;
+    color: white;
+     font-size: 14px;
+     font-weight: bold;
+    
+ 
+    width: 45px;
+    height: 27px;
+    text-align: center;
+
+}  
+
+.card-title{
+    text-align: center;
+    margin-top: 5px;
+}
+.des{
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.card-image{
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.card-image:hover .middle{
+    opacity: 10;
+    
+}
+.cards:hover .card-image{
+    opacity: 0.7;
+}
+ 
+.middle-text{
+    background-color: transparent;
+    border:2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+    
+}
+     </style>
+</head>
+<body>
+            <!--header-->
+            <header class="header-section">
+                <a href="index.html" class="logo" style="font-family: 'cinzel'; text-decoration: none;color: rgb(255, 255, 255);">ESTHETIQUE</a>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="service.html">SERVICES </a></li>
+            
+                          
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="icons">
+                    <a href="login.html"><i class="fas fa-user"></i></a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+        
+            </header>
+        
+            <!---header ends-->
+
+            
+                                
+              
+                <!---banner section starts-->
+<section class="banner-container">
+    <div class="banner-title">
+       <p class="bonus-title" style="font-family: 'Raleway' ; font-size: 40px;">BONUS DEALS FOR MEMBERS</p>
+       <div class="underline"></div>
+       <div class="clearfix-section">
+          <p style="text-align: center; font-family: 'raleway'; font-size:20px;">BE A CLUB ESTHETIQUE MEMBER TO ENJOY THE FOLLOWING DEALS</p>
+          <p style="text-align: center; font-family: 'raleway';">
+          <span style="color: #ff2a00;">
+          <strong>
+             <span style="text-decoration: underline; margin-top: 30px;">AN ACTIVE MEMBERSHIP IS REQUIRED TO REDEEM THE OFFERS</span>
+          </strong></span></p>
+ 
+          <h2 style="text-align: center;">
+          <strong>
+             <span style="color: #ff2a00; text-decoration: underline;padding: 20px;">ONLINE PURCHASE MANDATORY</span>
+          </strong></h2>
+          </div></div></section>
+ 
+           
+          </div>
+ 
+       </div>
+ 
+    </div>
+  
+ 
+    </div>
+ </section>
+ 
+ <!-----container-->
+  
+ 
+ 
+ 
+ <!---offer section ends-->
+ <div class="main">
+ <div class="cards">
+    <div class="card-image">
+       <img src="images/HairBotox_800x.png">
+       <div class="middle">
+          <div class="middle-text">QUICK VIEW</div>
+       </div>
+       <span class="label danger">SALE</span>
+ 
+    </div>
+    <div class="card-title">
+       <h3> KERATIN TREATMENT-MEMBERS ONLY DEAL</h3>
+ 
+    </div>
+ 
+    <div class="des">
+ <p><del style="text-decoration: line-through;"><ins style="color: #ff2a00;">Rs.18,000.00</ins></del>from Rs.4,999.00</p>
+    
+    </div>
+ </div>
+ 
+ <!----cardsss-->
+ <div class="cards">
+    <div class="card-image">
+       <img src="images/HairSmoothening_800x.png">
+       <div class="middle">
+          <div class="middle-text">QUICK VIEW</div>
+       </div>
+       <span class="label danger">SALE</span>
+ 
+    </div>
+    <div class="card-title">
+       <h3>  HAIR SMOOTHENING - MEMBERS ONLY DEAL</h3>
+ 
+    </div>
+ 
+    <div class="des">
+ <p><del style="text-decoration: line-through;"><ins style="color: #ff2a00;">Rs.13,000.00</ins></del>from Rs.4,999.00</p>
+    
+    </div>
+ </div>
+ </div>
+ <!----offers ends-->
+ 
+           
+</body>
+</html>
